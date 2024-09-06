@@ -1,0 +1,36 @@
+.header {
+    background-image: url("../img/bg-first.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 160px;
+}
+
+.header__container {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 400px;
+}
+
+.header__img{
+    margin-right: auto;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.header__item:not(:last-child) {
+    margin-right: 24px;
+}
+.header__text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FDFDFD;
+}
+
+.section__content{
+    padding: 80px 0 100px 0;
+}
